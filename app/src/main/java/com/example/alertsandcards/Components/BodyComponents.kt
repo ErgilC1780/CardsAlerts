@@ -43,7 +43,7 @@ fun MainTextField( value: String, onValueChanger : (String) -> Unit, label: Stri
         label = { Text(text = label) },
         keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
         modifier = Modifier
-            .fillMaxSize()
+            .fillMaxWidth()
             .padding(
                 horizontal = 30.dp
             )
